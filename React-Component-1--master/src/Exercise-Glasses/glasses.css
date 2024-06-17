@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.glasses {
+  background-image: url("../../public/glasses/glassesImage/background.jpg");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  line-height: 100px;
+  color: aliceblue;
+}
+
+.title {
+  height: 100px;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.card__img {
+  width: 100%;
+  position: relative;
+}
+
+.card__title {
+  margin-bottom: 0;
+  padding: 0 10px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card__body {
+  position: absolute;
+  background-color: antiquewhite;
+  width: 250px;
+  bottom: 0;
+  height: 120px;
+}
+
+.card__desc {
+  padding: 0 10px;
+}
+.render__glasses {
+  background-color: white;
+  padding: 30px;
+}
+
+.unit_glass {
+  border: 1px solid red;
+}
+
+.main-model {
+  position: relative;
+}
+
+.glass__active {
+  position: absolute;
+  top: 75px;
+  left: 63px;
+  opacity: 0.6;
+}
