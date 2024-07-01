@@ -1,0 +1,56 @@
+.form {
+    background-color: #000;
+    padding: 30px;
+    width: 1000px;
+    margin: 0 auto;
+
+    .titleMain {
+        margin-bottom: 50px;
+    }
+
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+
+        .label {
+            color: #fff;
+        }
+
+        .gender {
+            margin-left: 5px;
+        }
+
+        .formInput {
+            width: 400px;
+            border: 3px solid orange;
+            padding: 0 15px;
+            height: 40px;
+
+            &.errorBorder {
+                border: 3px solid red;
+            }
+
+            &:focus-visible {
+                outline: none;
+            }
+
+            &:focus {
+                border: 3px solid #00afab;
+
+            }
+        }
+
+        .error {
+            margin-top: 10px;
+            color: orange
+        }
+    }
+
+
+}
+
+.tableInfo {
+    width: 1000px;
+    margin: 50px auto;
+}

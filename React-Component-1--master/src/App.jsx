@@ -1,5 +1,6 @@
 import BookingTicket from "./Exercise-BookingTicket/BookingTicket";
 import MainComponent from "./Exercise-Component/MainComponent";
+import Form from "./Exercise-Form";
 import Glasses from "./Exercise-Glasses/Glasses";
 import ShoeShop from "./Exercise-ShoeShop/ShoeShop";
 
@@ -16,7 +17,10 @@ function App() {
       {/* <ShoeShop /> */}
 
       {/* Exercise 4 */}
-      <BookingTicket />
+      {/* <BookingTicket /> */}
+
+      {/* Exercise 5 */}
+      <Form />
     </>
   );
 }
